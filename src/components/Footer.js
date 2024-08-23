@@ -25,9 +25,9 @@ export default function Footer() {
       {/* Center Section: Let’s Work Together and Contact Us Button */}
       <div className="text-center md:text-left">
         <h2 className="text-3xl font-bold mb-6">Let’s Work Together</h2>
-        <button className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-bold py-3 px-8 rounded-full hover:opacity-90 transition-opacity duration-300">
+        <a href='/contact' className="bg-[#EE680F] text-white font-bold py-3 px-8 rounded-full hover:opacity-90 transition-opacity duration-300">
           CONTACT US
-        </button>
+        </a>
       </div>
   
       {/* Right Section: Socials and Company Links */}

@@ -21,13 +21,16 @@ export default function Header() {
   style={{ padding: '17px 47px' }}
 >              <li><a   style={{ lineHeight: '30px' }}
  href="/" className="text-[20px] font-[500] p-2 hover:underline">Home</a></li>
+ {/* <li><a   style={{ lineHeight: '30px' }}
+ href="/About" className="text-[20px] font-[500] p-2 hover:underline">About</a></li> */}
               <li><a   style={{ lineHeight: '30px' }}
- href="/about" className="text-[20px] font-[500] p-2 hover:underline">About</a></li>
+ href="/About" className="text-[20px] font-[500] p-2 hover:underline">About</a></li>
               <li><a   style={{ lineHeight: '30px' }}
- href="/contact" className="text-[20px] font-[500] p-2 hover:underline">Contact</a></li>
+ href="/Portfolio" className="text-[20px] font-[500] p-2 hover:underline">Portfolio</a></li>
             </ul>
           </nav>
-          <button className="btn bg-white rounded-full text-black py-1 px-3">Get in Touch</button>
+          <button className="btn bg-white rounded-full text-black py-1 px-3">
+            <a href='/contact' >Get in Touch</a></button>
         </header>
   );
 }

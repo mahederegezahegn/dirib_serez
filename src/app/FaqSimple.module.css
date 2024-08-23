@@ -1,0 +1,31 @@
+.faqContainer {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .faqTitle {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .faqAccordion {
+    border-top: 1px solid #ddd;
+  }
+  
+  .faqAccordionItem {
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .faqAccordionItemTitle {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .faqAccordionItemContent {
+    padding-top: 0.5rem;
+    color: #555;
+  }
+  
